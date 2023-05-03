@@ -1,0 +1,482 @@
+﻿
+@media screen and (min-width: 481px) {
+
+
+body {
+    position:relative;
+		background-image:url(img/BackgroungImageDog.png);
+		padding:0;
+		margin:0;
+		font-family: Muli, sans-serif;
+		
+	
+}
+
+
+	* {
+	  box-sizing: border-box;
+	}
+	
+
+
+.first:first-child {
+
+    margin-top: 150px;
+ 
+}
+
+.wrapper {
+
+    position:fixed;
+    z-index:1;
+   
+}
+.header {
+
+    position:fixed;
+    width:100%;
+    background-color:#3C210A;
+	padding:25px;
+	color:#ffffff;
+	font-size:15px;
+    padding:10px;
+    z-index:-1;
+}
+
+
+.center{
+
+	position: relative;
+	top: 50px;
+	width: 75%;
+    float: left;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+   
+	
+}
+.row {
+   
+    padding-bottom:30px;
+}
+
+.container-fluid{
+	
+	
+	    padding-left: 0px; 
+
+}
+
+.col-sm-12{
+ padding-left: 0px; 	
+	
+}
+#home {
+ 
+    color: #ffffff;
+    padding:0px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index:-1;
+}
+
+.searchbar {
+    position:fixed;
+    top:45px;
+    width:100%;
+    z-index:1;
+    background-color:#837E61;
+    padding:35px;
+   
+
+}
+
+#BtnSearch {
+    padding: 5px;
+    border-radius: 5px;
+    width: 60px;
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+
+#txtSearch {
+   
+    margin-right: 7px;
+    width: 220px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.subbar1 {
+    padding:30px;
+    background-color:white;
+        border:1px solid black;
+      
+}
+
+.subbar2 {
+    position:fixed;
+    padding:698px;
+    background-color:white;
+    border:1px solid black;
+    
+}
+
+.filterbar {
+    
+    padding:20px;
+    height:773px;
+    width:360px;
+    background-color:white;
+    border:1.5px solid black;
+ 
+}
+
+[type="checkbox"] {
+
+  content: '';
+  position: relative;
+  left: 0; top: 0;
+  width: 1.00em; height: 1.00em;
+  border: 2px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+     padding-left:10px;
+}
+
+
+ul{
+    font-size:18px;
+    font-family:'Times New Roman', Times, serif;
+   
+ }
+
+
+div[class$="control"] {
+
+   padding:70px;
+   float:left !important;
+
+}
+
+.col-sm-9{
+    top:50px;
+}
+
+       div.col-sm-9 div {
+        
+     /* height: 300px;*/
+    
+        max-width: 1400px;
+        z-index:-1;
+        font-size: 28px;
+        margin-bottom: 10px;
+    /*  margin-top: 40px;*/
+       }
+
+.item {
+
+    border:3px solid black;
+	border-radius:5px;
+	padding:5px;
+}
+
+.rightbar {
+    padding:10px;
+    border:1.5px solid black;
+}
+
+
+#breedimg {
+  padding:15px;
+}
+
+.ItemContainer {
+    position:relative;
+   
+}
+
+#name {
+   
+    font-size: 20px;
+    text-align: center;
+    }
+
+#othernames {
+
+   text-align: center;
+    font-size:14px;
+    font-style: italic;
+    
+}
+
+#info {
+
+    /*font-size: 12px;
+    padding-top: -50px;
+    MARGIN-TOP: -420PX;
+    PADDING: 15PX;
+    BORDER: 1PX SOLID BLACK;
+    HEIGHT: 145PX;
+    OVERFLOW-Y: AUTO;*/
+   
+}
+
+#BtnMore {
+
+    position: relative;
+    padding: 1px 4px 1px 4px;
+    border: 1px solid black;
+	border-radius:5px;
+    margin-left:80px;
+    cursor:pointer;
+    z-index:-1;
+    
+    
+   
+}
+
+}
+
+     @media screen and (max-width: 480px) {
+
+
+body {
+    position:relative;
+		background-image:url(img/BackgroungImageDog.png);
+		padding:0;
+		margin:0;
+		font-family: Muli, sans-serif;
+		
+	
+}
+
+
+	* {
+	  box-sizing: border-box;
+	}
+	
+
+
+.first:first-child {
+
+    margin-top: 150px;
+ 
+}
+
+.wrapper {
+
+    position:fixed;
+    z-index:1;
+   
+}
+
+
+.header {
+
+    position:fixed;
+    width:100%;
+    background-color:#3C210A;
+	padding:25px;
+	color:#ffffff;
+	font-size:15px;
+    padding:10px;
+    z-index:-1;
+}
+
+
+.center{
+
+	position: relative;
+	top: 50px;
+	width: 100%;
+    float: left;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+   
+	
+}
+.row {
+   
+    padding-bottom:30px;
+}
+
+.container-fluid{
+	
+	
+	    padding-left: 0px; 
+
+}
+
+.col-sm-12{
+ padding-left: 0px; 	
+	
+}
+
+
+#home {
+ 
+    color: #ffffff;
+    padding:0px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index:-1;
+}
+
+.searchbar {
+    position:fixed;
+    top:45px;
+    width:100%;
+    z-index:1;
+    background-color:#837E61;
+    padding:35px;
+   
+
+}
+
+#BtnSearch {
+    padding: 5px;
+    border-radius: 5px;
+    width: 60px;
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+
+#txtSearch {
+   
+    margin-right: 7px;
+    width: 220px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.subbar1 {
+    padding:30px;
+    background-color:white;
+        border:1px solid black;
+      
+}
+
+.subbar2 {
+    position:fixed;
+    padding:698px;
+    background-color:white;
+    border:1px solid black;
+    
+}
+
+.filterbar {
+    
+    padding:20px;
+    height:773px;
+    width:360px;
+    background-color:white;
+    border:1.5px solid black;
+ 
+}
+
+[type="checkbox"] {
+
+  content: '';
+  position: relative;
+  left: 0; top: 0;
+  width: 1.00em; height: 1.00em;
+  border: 2px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+     padding-left:10px;
+}
+
+
+ul{
+    font-size:18px;
+    font-family:'Times New Roman', Times, serif;
+   
+ }
+
+
+div[class$="control"] {
+
+   padding:70px;
+   float:left !important;
+
+}
+
+div[class^="holder"] {
+      margin-bottom: 50px;
+
+}
+
+
+     div.col-sm-9 div {
+        
+        height: 260px;
+        max-width: 1400px;
+        z-index:-1;
+        font-size: 28px;
+        margin-bottom: 30px;
+    /*   margin-top: 40px;*/
+	
+	
+
+       }
+	   
+	   
+	   .item {
+
+    border:3px solid black;
+	border-radius:5px;
+	padding:0px;
+	margin-bottom:15px;
+}
+
+.rightbar {
+    padding:10px;
+    border:1.5px solid black;
+}
+
+
+#breedimg {
+  padding:15px;
+}
+
+.ItemContainer {
+    position:relative;
+   
+}
+
+
+   #name {
+            
+            font-size: 20px;
+            text-align: center;
+        }
+
+
+    #othernames {
+
+            text-align: center;
+            font-size: 10px;
+            font-style: italic;
+         
+          }
+
+    
+              #BtnMore {
+
+                position: relative;
+                left: 35px;
+                font-size: 24px;
+                padding: 1px;
+                border: 1px solid black;
+				border-radius:5px;
+                margin-left:0px;
+   
+            }
+
+
+        }

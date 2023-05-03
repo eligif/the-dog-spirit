@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>All Dogs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="../css/AllBreed.css" rel="stylesheet" />
+    <style>
+        body {
+            position: relative;
+        }
+
+        ul.nav-pills {
+
+            top: 300px;
+            left:150px;
+            position: fixed;
+        }
+
+       div.col-sm-9 div {
+        
+        height: 250px;
+        z-index:-1;
+        font-size: 28px;
+        margin-bottom: 5px;
+        margin-top: 50px;
+       }
+
+      
+      .item {
+
+          height: 250px;
+          font-size: 28px;
+          margin-bottom: 10px;
+          border:1px solid black;
+   
+
+        }
+
+        @media screen and (max-width: 810px) {
+          
+        }
+
+
+    </style>
+
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="wrapper">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="header">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="searchbar">
+                                <input id="txtSearch" type="text" width="800" /><input id="BtnSearch" type="button" value="button" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row control">
+            <nav class="col-sm-3" id="myScrollspy">
+                <ul class="nav nav-pills nav-stacked hidden-xs">
+                    <li>
+                        <div class="radio">
+                            <input id="Radio1" type="radio" />כלבי רועים
+                        </div>
+                    </li>
+                    <li>
+                        <div class="radio">
+                            <input id="Radio1" type="radio" />כלבי ציד
+                        </div>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="col-sm-9">
+                <div class="row">
+                    <div class="col-lg-2 col-lg-6 col-md-6 col-sm-6 col-xs-6"><div class="item"></div> </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6"><div class="item"></div></div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6"><div class="item"></div></div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6"><div class="item"></div></div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-2"></div>
+                </div>
+              
+                <div class="row">
+                    <div class="col-lg-2 col-lg-6 col-md-6 col-sm-6 col-xs-6"><div class="item"></div> </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6"><div class="item"></div></div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6"><div class="item"></div></div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6"><div class="item"></div></div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-2"></div>
+                </div>
+                  <div class="row">
+                      <div class="col-lg-2 col-lg-6 col-md-6 col-sm-6 col-xs-6"><div class="item"></div> </div>
+                      <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6"><div class="item"></div></div>
+                      <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6"><div class="item"></div></div>
+                      <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6"><div class="item"></div></div>
+                      <div class="col-lg-2"></div>
+                      <div class="col-lg-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 col-lg-6 col-md-6 col-sm-6 col-xs-6"><div class="item"></div> </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6"><div class="item"></div></div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6"><div class="item"></div></div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6"><div class="item"></div></div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 col-lg-6 col-md-6 col-sm-6 col-xs-6"><div class="item"></div> </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6"><div class="item"></div></div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6"><div class="item"></div></div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6"><div class="item"></div></div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 col-lg-6 col-md-6 col-sm-6 col-xs-6"><div class="item"></div> </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6"><div class="item"></div></div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6"><div class="item"></div></div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6"><div class="item"></div></div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-2"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
